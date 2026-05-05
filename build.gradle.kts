@@ -12,6 +12,7 @@ subprojects {
             name = "papermc"
             url = uri("https://repo.papermc.io/repository/maven-public/")
         }
+        maven("https://jitpack.io")
     }
 
     plugins.withType<JavaPlugin> {

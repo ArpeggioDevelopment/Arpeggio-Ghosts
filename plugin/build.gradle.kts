@@ -1,3 +1,6 @@
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT")
+    compileOnly(libs.paper)
+    implementation(libs.aaapi.core)
+    implementation(libs.aaapi.guice)
+    implementation(libs.guice)
 }

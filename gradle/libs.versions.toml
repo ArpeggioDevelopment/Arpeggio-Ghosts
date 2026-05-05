@@ -1,0 +1,8 @@
+[versions]
+aaapi = "1.0.0"
+
+[libraries]
+paper = { group = "io.papermc.paper", name = "paper-api", version = "1.21-R0.1-SNAPSHOT" }
+aaapi-core = { group = "com.github.xKrisSx", name = "aaapi:core", version.ref = "aaapi" }
+aaapi-guice = { group = "com.github.xKrisSx", name = "aaapi:guice", version.ref = "aaapi" }
+guice = { group = "com.google.inject", name = "guice", version = "7.0.0" }
