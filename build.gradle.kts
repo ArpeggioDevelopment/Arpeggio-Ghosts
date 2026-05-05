@@ -12,6 +12,7 @@ subprojects {
             name = "papermc"
             url = uri("https://repo.papermc.io/repository/maven-public/")
         }
+        maven("https://repo.okaeri.cloud/releases")
         maven("https://jitpack.io")
     }
 

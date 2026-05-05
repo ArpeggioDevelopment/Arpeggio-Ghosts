@@ -8,3 +8,5 @@ aaapi-guice = { group = "com.github.xKrisSx", name = "aaapi:guice", version.ref 
 guice = { group = "com.google.inject", name = "guice", version = "7.0.0" }
 
 ormlite = { group = "com.j256.ormlite", name = "ormlite-jdbc", version = "6.1" }
+
+okaeri = { group = "eu.okaeri", name = "okaeri-configs-yaml-snakeyaml", version = "6.1.0-beta.4" }
