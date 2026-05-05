@@ -2,6 +2,5 @@ name: Arpeggio-Ghosts
 version: 1.0.0
 main: xyz.thehiddenobject.arpeggioghosts.plugin.bootstrap.PluginBootstrap
 description: An example plugin
-author: PaperMC
-website: https://papermc.io
-api-version: '26.1.2'
+author: p2tch
+api-version: '1.21'
