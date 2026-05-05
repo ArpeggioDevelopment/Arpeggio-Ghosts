@@ -1,6 +1,6 @@
 name: Arpeggio-Ghosts
 version: 1.0.0
 main: xyz.thehiddenobject.arpeggioghosts.plugin.bootstrap.PluginBootstrap
-description: An example plugin
+description: A modern Minecraft plugin with a configurable ghost system, rituals, and exorcism mechanics.
 author: p2tch
 api-version: '1.21'
