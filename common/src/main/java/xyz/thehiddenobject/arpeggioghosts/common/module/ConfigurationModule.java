@@ -1,7 +1,6 @@
 package xyz.thehiddenobject.arpeggioghosts.common.module;
 
 import com.google.inject.AbstractModule;
-import com.google.inject.Scopes;
 import eu.okaeri.configs.ConfigManager;
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.yaml.snakeyaml.YamlSnakeYamlConfigurer;
@@ -24,7 +23,7 @@ public class ConfigurationModule extends AbstractModule {
         );
     }
 
-    <T extends OkaeriConfig> T createConfiguration(
+    private <T extends OkaeriConfig> T createConfiguration(
             final @NotNull Class<T> clazz,
             final @NotNull String fileName
     ) {
