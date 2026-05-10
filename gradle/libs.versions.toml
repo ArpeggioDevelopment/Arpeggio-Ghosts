@@ -12,3 +12,5 @@ ormlite = { group = "com.j256.ormlite", name = "ormlite-jdbc", version = "6.1" }
 okaeri = { group = "eu.okaeri", name = "okaeri-configs-yaml-snakeyaml", version = "6.1.0-beta.4" }
 
 jetbrains-annotations = { group = "org.jetbrains", name = "annotations", version = "26.0.2" }
+
+litecommands = { group = "dev.rollczi", name = "litecommands-bukkit", version = "3.10.9" }

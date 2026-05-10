@@ -3,4 +3,7 @@ dependencies {
     implementation(libs.aaapi.core)
     implementation(libs.aaapi.guice)
     implementation(libs.guice)
+    implementation(libs.litecommands)
+
+    implementation(project(":common"))
 }
