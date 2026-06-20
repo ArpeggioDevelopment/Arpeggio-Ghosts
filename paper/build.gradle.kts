@@ -5,4 +5,6 @@ dependencies {
 
     implementation("com.github.xKrisSx.aaapi:core:1.0.1")
     implementation("com.github.xKrisSx.aaapi:guice:1.0.1")
+
+    implementation(project(":common"))
 }
