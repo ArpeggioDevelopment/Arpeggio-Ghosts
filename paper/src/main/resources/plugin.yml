@@ -1,0 +1,5 @@
+name: Arpeggio-Ghosts
+version: ${version}
+main: dev.p2tch.arpeggio.ghosts.paper.PluginBootstrap
+author: p2tch (404)
+api-version: '26.1.2'
